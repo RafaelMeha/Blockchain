@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "start": "tsc && node ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.11.19",
-    "typescript": "^5.3.3"
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.2"
   }
 }
